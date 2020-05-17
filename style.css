@@ -1,0 +1,55 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:gray;
+	
+}
+body h3{
+	font-size:40px;
+	font-family:verdana;
+}
+
+.container ul{
+	list-style:none;
+	position:center;
+}
+.container ul li{
+	background-color:#3C3E94;
+	width:150px;
+	border:1px solid white;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	float:left;
+	color:white;
+	font-size:18px;
+	
+	
+	
+}
+body p{
+	font-family:verdana;
+	font-size:20px;
+	color:black;
+}
+.container ul li:hover{
+	background-color:#388222;
+}
+.container ul ul{
+	display:none;
+}
+.container ul li:hover > ul{
+	display:block;
+}
+.chi{
+	position:absolute;
+	right:0;
+	top:10px;
+	color:black;
+	font-family:century gothic;
+	padding:0 60px;
+	display:none;
+	}
+
